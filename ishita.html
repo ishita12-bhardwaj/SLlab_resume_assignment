@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Resume</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Open+Sans"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        background-color: #444;
+        padding: 0 1em;
+      }
+
+      body {
+        background-color: #fff;
+        font-family: "Lato", sans-serif;
+        margin: 1em auto;
+        max-width: 60em;
+        height: 52.625em;
+      }
+
+      #section-left {
+        width: 35%;
+        float: left;
+        height: 100%;
+        background-color: #fc7a70;
+        color: #fff;
+        text-align: center;
+      }
+
+      #section-left .section {
+        margin-top: 35%;
+        padding: 1em;
+      }
+
+      #section-left .section .logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background: url("Triveni_Picture.JPG");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+      }
+
+      .intro hr {
+        width: 4em;
+        display: block;
+        height: 2px;
+        border: 0px;
+        border-top: 2px solid;
+      }
+
+      .dob {
+        text-decoration: overline underline;
+      }
+
+      .intro .content {
+        margin-bottom: 5px;
+      }
+
+      #contact {
+        margin-top: 40px;
+      }
+
+      h1 {
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+      }
+
+      li,
+      p {
+        font-size: 0.8em;
+      }
+
+      #section-right {
+        width: 65%;
+        float: right;
+      }
+
+      #section-right .section {
+        margin: 0 0 30px 0;
+      }
+
+      .wrapper {
+        padding: 1.5em;
+      }
+
+      .fa {
+        margin-right: 15px;
+      }
+
+      .wrapper .title {
+        color: #fc7a70;
+        font-size: 1em;
+        font-variant: small-caps;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        border-bottom: 2px solid #f2f2f2;
+      }
+
+      a:link {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      a:visited {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      h2 {
+        text-transform: uppercase;
+        font-size: 0.8em;
+      }
+
+      h3 {
+        font-size: 0.65em;
+        text-transform: uppercase;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="section-left">
+      <div class="section intro">
+        <div class="logo"></div>
+        <img
+          src="formal.jpg"
+          alt="image"
+          height="200px"
+          width="150px"
+          text-align="left"
+        />
+        <h1>Ishita Bhardwaj</h1>
+        <div class="content">
+          <span class="intro"
+            >Btech CSE student at Sikkim Manipal Institute of Technology</span
+          >
+        </div>
+        <p><b>Click here to fil up my form <a href="form.html">FORM</a> </a></a></b></p>
+        <hr />
+
+        <div id="contact">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span class="num">8509157520</span>
+          <div class="web">
+            <i class="fa fa-link" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/in/ishita-bhardwaj-b21782191/"
+              >Linkedin/ishita-bhardwaj1</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-right">
+      <div class="wrapper">
+        <div class="section">
+          <div class="title">
+            <i class="fa fa-user" aria-hidden="true"></i> Summary
+          </div>
+          <ul>
+            <li>
+              Hello I'm Ishita Bhardwaj. I am a third year student pursuing
+              Btech CSE at Sikkim Manipal Institute of Technology. I am a web
+              development enthusiast and also skilled in programming languages
+              like c++,C and Java. I love handling social media and working in
+              groups and teams.
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <div class="title">
+            <i class="fa fa-pencil" aria-hidden="true"></i> Experience
+          </div>
+          <div class="content">
+            <h2>Btech CSE student</h2>
+            <h3>SMIT | Jul 2019 - Present</h3>
+          </div>
+
+          <div class="content">
+            <h2>Technical skills</h2>
+
+            <label for="file">C++</label>
+            <progress id="file" value="75" max="100">75%</progress>
+            <label for="file">C</label>
+            <progress id="file" value="70" max="100">70%</progress>
+            <label for="file">Java</label>
+            <progress id="file" value="45" max="100">45%</progress>
+            <label for="file">HTML and CSS</label>
+            <progress id="file" value="40" max="100">40%</progress>
+          </div>
+
+          <div class="content">
+            <h2>Industrial Training</h2>
+            <h3>SMIT | Jul 2021 - Aug 2021</h3>
+            <ul>
+              <li>
+                Developed an e-commerce application using HTML, CSS, BootStrapt
+                with a login,register,cart,success and shopping paget.
+              </li>
+              <li>
+                Learnt to link e commerce site using backend like SQL and PHP.
+              </li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <div class="title">
+              <i class="fa fa-book" aria-hidden="true"></i>Education
+            </div>
+            <!---
+					<p>
+						Bachelors in Science in Computer Science <b>|</b> Sikkim Manipal Institute of Technology <b>|</b> 
+						2019-2023 <b>|</b> GPA:9.63
+					</p>
+					 Senior secondary Education CBSE<b>|</b>The Air Force School,New Delhi<b>|</b>2019 batch<b>|</b>94.6%<
+					
+
+					</p>
+				-->
+            <table style="width: 50%" border="solid black 1px">
+              <tr>
+                <th>Qualfication</th>
+                <th>Name of Institution</th>
+                <th>Percentage/GPA</th>
+              </tr>
+              <tr>
+                <td>Btech CSE(pursuing)</td>
+                <td>Sikkim Manipal Institute of technology(2019-2023)</td>
+                <td>CGPA 9.63</td>
+              </tr>
+              <tr>
+                <td>Senior Secondary(CBSE)</td>
+                <td>The Air Force School,New Delhi(2019)</td>
+                <td>94.6%</td>
+              </tr>
+              <tr>
+                <td>Secondary (CBSE)</td>
+                <td>The Air Force School,New Delhi</td>
+                <td>10 CGPA</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="section">
+            <div class="title">
+              <i class="fa fa-superpowers" aria-hidden="true"></i> Personal
+              Interests
+            </div>
+            <ul>
+              <li>Reading</li>
+              <li>Dancing</li>
+              <li>Socialising</li>
+              <li>Swimming</li>
+            </ul>
+          </div>
+        </div>
+       
+
+      </div>
+    </div>
+  </body>
+</html>
